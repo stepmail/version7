@@ -1,0 +1,285 @@
+@charset "Shift_JIS";
+
+* {
+	margin: 0;
+	padding:0;
+	border:0;
+	font-family:'ÉqÉâÉMÉmäpÉS Pro W3','Hiragino Kaku Gothic Pro','ÉÅÉCÉäÉI',	Meiryo,'ÇlÇr ÇoÉSÉVÉbÉN';
+}
+
+a {
+	color: #0000ff;
+	text-decoration: underline;
+}
+
+a:link,a:visited,a:active {
+	color: #0000ff;
+}
+
+a:hover {
+	color: #ff9900;;
+}
+
+.aka { color: #ff0000; }
+.ao { color: #0000cc; }
+.tya { color: #bd000e}
+.gray { color: #3d3737}
+.green { color: #009900}
+.gray1 { color: #C0C0C0}
+
+.b { font-weight: bold; }
+
+.big { font-size: 18px; }
+.big1 { font-size: 24px; }
+.big2 { font-size: 16px; }
+
+.ad1 { font-size: 13px; }
+.ad2{ font-size: 12px; }
+.ad3{ font-size: 9px; }
+
+.size15 { font-size: 15px; }
+.size16 { font-size: 16px; }
+.size17 { font-size: 17px; }
+.size18 { font-size: 18px; }
+.size19 { font-size: 19px; }
+.size20 { font-size: 20px; }
+.size21 { font-size: 21px; }
+.size22 { font-size: 22px; }
+.size23 { font-size: 23px; }
+.size24 { font-size: 24px; }
+.size25 { font-size: 25px; }
+.size26 { font-size: 26px; }
+
+.line { background: #ffff00; }
+
+strong{ font-weight:bold; }
+em{ font-weight:bold; }
+
+.dotted { border-bottom:dotted 1px; }
+
+.imgl {
+	margin: 5px 20px 10px 10px;
+	padding: 0;
+	float: left;
+}
+
+.imgr {
+	margin: 5px 10px 10px 20px;
+	padding: 0;
+	float: right;
+}
+
+.goto {
+	margin: 10px 28px 10px 10px;
+	text-align: right;
+}
+
+body {
+	font-size: 14px;
+	text-align: center;
+	background: #FF9E00 url(img/bg.jpg) repeat-x fixed;
+	line-height:110%;
+}
+
+#top-header {
+	width: 800px;
+	height: 50px;
+	background-image: url(img/top-header.jpg);
+	margin: 0;
+}
+
+#header {
+	width:800px;
+	height:160px;
+	background-image: url(img/top.gif);
+	position:relative;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+#container {
+	width: 800px;
+	text-align: left;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+	background-color: #fff;
+}
+
+h1 {
+	font-size: 12px;
+	color: #000;
+	text-align: right;
+	padding-right: 8px;
+	padding-top: 27px;
+}
+
+h2 {
+	font-size: 10px;
+	line-height: 120%;
+	font-weight: bold;
+	color: #3d3737;
+	padding: 5px 8px 0px 0px;
+	text-align: right;
+}
+
+.dis{
+	color:#808080;
+	font-size:12px;
+	line-height:120%;
+	font-weight:normal;
+	text-align:left;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:10px;
+	margin-top:10px;
+	padding:1px 20px 1px 20px;
+}
+
+#contents {
+	width: 760px;
+	margin: 0px 25px;
+}
+
+* html #contents {
+	width: 760px;
+	margin: 0px 20px;
+}
+
+#contents p{
+	padding-bottom: 5px;
+	margin: 10px 0px 10px 0px;
+}
+
+#contents h3 {
+	height:42px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	line-height: 42px;
+	text-align: left;
+	text-indent: 50px;
+	background-image: url(img/h3.gif);
+	background-repeat: no-repeat;
+	width: 756px;
+	padding-top: 2px;
+}
+
+.box2 {
+	line-height:140%;
+	font-size: 14px;
+	margin: 10px 13px 20px 12px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	overflow: auto;
+	word-break: break-all;
+}
+
+.catchcopy {
+	line-height:150%;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	margin: 50px 0px 30px 0px;
+	padding: 0px 20px 0px 20px;
+	word-break: break-all;
+}
+
+.tokutittle{
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 20px 10px 10px 10px;
+	text-align: left;
+	background-color: #660000;
+}
+
+.tokuten{
+	line-height:140%;
+	font-size: 14px;
+	margin: 0px 0px 30px 0px;
+	padding: 20px 20px 15px 10px;
+	border: 3px solid #660000;
+	overflow: auto;
+	clear:both;
+	word-break: break-all;
+}
+
+.detail {
+        text-align: center;
+        margin: 100px 0px 100px 0px;
+}
+
+#footer {
+	width: 800px;
+	color:#666;
+	margin: 0;
+	padding-top: 5px;
+	border-top: 1px dotted #666;
+	background-color: #EEEEEE;
+	text-align: center;
+	clear:both;
+}
+
+#footer p {
+	color:#666;
+	text-align: left;
+	padding: 3px 20px 0px 20px;
+	font-size: 10px;
+}
+
+#footer h4 {
+	color:#666;
+	font-size: 13px;
+	text-align: left;
+	font-weight:bold;
+	margin: 5px 0px 2px 0px;
+	padding: 7px 20px 5px 20px;
+}
+
+#foot {
+	width: 800px;
+	height: 50px;
+	font-size:12px;
+	color: #fff;
+	background-image: url(img/foot.jpg);
+	margin: 0;
+}
+
+#foot p {
+	color:#666;
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	line-height: 26px;
+	text-align: center;
+	margin:0px;
+	font-weight: bold;
+	padding-right: 13px;
+	background: none;
+}
+
+#foot a {
+	text-decoration: none;
+	font-style:normal;
+}
+
+.clear {
+	clear:both;
+}
+
+#boxt {
+	color:#000;
+	font-size:18px;
+	font-weight:normal;
+	text-align: center;
+	margin: 30px 10px 30px 10px;
+	padding:0;
+	word-break: break-all;
+}
+
+/*--------------------------------------------------------------------------
+Ç±ÇÃCSSÉtÉ@ÉCÉãÇÕÅAunlimited affiliateçwì¸é“ÇÃï˚ÇÃÇ›Ç…égópãñâ¬Ç≥ÇÍÇÈÇ‡ÇÃÇ≈Ç∑ÅB
+Ç±ÇÃCSSÉtÉ@ÉCÉãÇÃñ≥ífîzïzãyÇ—è§ópîÃîÑÇå≈Ç≠ã÷Ç∂Ç‹Ç∑ÅB
+
+Copyright äîéÆâÔé–Mithril All rights Reserved.
+--------------------------------------------------------------------------*/
